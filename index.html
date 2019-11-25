@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        
+        <title>Rock Paper Scissors Game</title>
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="comp-label" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="comp-score">0</span>
+        </div>
+        
+        <div class="result">
+            Wanna play a game of<br>Rock Paper Scissors?
+        </div>
+        
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="rock.png" alt="Rock">
+            </div>
+        
+            <div class="choice" id="paper">
+                <img src="paper.png" alt="Paper">
+            </div>
+            
+            <div class="choice" id="scissors">
+                <img src="scissors.png" alt="Scissors">
+            </div>
+        </div>
+        
+        <p id="action-message">Make your move!</p>
+        
+        <div class="reset-button">
+            <span id="reset">Reset</span>
+        </div>
+        
+        
+    <script src="app.js" charset="utf-8"></script>    
+    </body>
+</html>
+
+<!-- SPANS ARE INLINE | DIVS ARE BLOCK ELEMS -->
